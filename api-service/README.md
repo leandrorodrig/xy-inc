@@ -18,14 +18,14 @@
 =                                                                                     =
 =    		                  Tecnologias utililizadas 			                      =
 = 																					  =
-=     				Java 7 			- Versão: 1.7.0_79 							  =
+=     				Java 7 			- Versão: 1.7.0_79 							      =
 =     				Tomcat 			- Versão: 7.0.68 								  =
 =     				Spring 			- Versão: 4.1.0.RELEASE 						  =
-=     				JPA/Hibernate 	- Versão: 4.3.0.Final  						  =
+=     				JPA/Hibernate 	- Versão: 4.3.0.Final  						      =
 =     				MySQL 			- Versão: 5.1.15  								  =
 =                   log4j          	- Versão: 1.2.16  								  =
 =					jackson      	- Versão: 2.5.1  								  =
-=					maven   		- Versão: 3.3  								  =
+=					maven   		- Versão: 3.3  								      =
 =					JSP  															  =
 = 																					  =
 =                   Obs.: consulte o pom.xml do projeto e veja com maiores 7 		  =
