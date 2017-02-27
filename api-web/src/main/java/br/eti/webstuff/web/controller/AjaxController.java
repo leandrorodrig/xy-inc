@@ -50,7 +50,7 @@ public class AjaxController {
 
 			RestTemplate restTemplate = new RestTemplate();
 
-			final String uri = "http://localhost:8085/fiveware-test-service/saveProductsbody";
+			final String uri = "http://localhost:8085/api-service/saveProductsbody";
 
 			ProductsVO productsVO = new ProductsVO();
 
@@ -102,7 +102,7 @@ public class AjaxController {
 
 			RestTemplate restTemplate = new RestTemplate();
 
-			String uri = "http://localhost:8085/fiveware-test-service/search/products/id/{id}";
+			String uri = "http://localhost:8085/api-service/search/products/id/{id}";
 
 			HttpHeaders headers = new HttpHeaders();
 
@@ -148,7 +148,7 @@ public class AjaxController {
 
 			RestTemplate restTemplate = new RestTemplate();
 
-			final String uri = "http://localhost:8085/fiveware-test-service/update/products";
+			final String uri = "http://localhost:8085/api-service/update/products";
 			
 			                                                
 			ProductsVO productsVO = new ProductsVO();
@@ -210,7 +210,7 @@ public class AjaxController {
 
 			RestTemplate restTemplate = new RestTemplate();
 
-			String uri = "http://localhost:8085/fiveware-test-service/delete/products/id/{id}";
+			String uri = "http://localhost:8085/api-service/delete/products/id/{id}";
 
 			HttpHeaders headers = new HttpHeaders();
 
