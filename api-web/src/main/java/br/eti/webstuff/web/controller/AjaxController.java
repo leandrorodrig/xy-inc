@@ -150,7 +150,7 @@ public class AjaxController {
 
 			final String uri = "http://localhost:8085/fiveware-test-service/update/products";
 			
-			                                                               
+			                                                
 			ProductsVO productsVO = new ProductsVO();
 			
 			Integer productId = Integer.parseInt(search.getId()); 
@@ -165,8 +165,6 @@ public class AjaxController {
 			Double price = Double.parseDouble(priceUI);
 			productsVO.setPrice(price); 
 			
-			//-------------------------------
-			
 			Map<String, String> params = new HashMap<String, String>();
 		    params.put("id", search.getId());
 		    params.put("name", search.getName());
@@ -174,32 +172,8 @@ public class AjaxController {
 		    params.put("category", search.getCategory());	
 		    params.put("price", search.getPrice());	  
 		    
-		    //EmployeeVO updatedEmployee = new EmployeeVO(2, "New Name", "Gilly", "test@email.com");
-		     
 		    restTemplate.put ( uri, productsVO, params);
 			
-			
-			//------------------------------
-
-
-			//ProductsVO vo = restTemplate.postForObject(uri, productsVO, ProductsVO.class); //TODO: PROBLEMA AKI
-			
-			//--------------------------------
-			/*
-			 HttpHeaders headers = new HttpHeaders();
-			 
-			 headers.setContentType(MediaType.APPLICATION_JSON); 
-			 
-			 HttpEntity<String> entity = new HttpEntity<String>("{"+search.getId()+search.getName()+"}", headers);
-			 
-			 ResponseEntity<String> response = restTemplate.exchange(uri, HttpMethod.PUT, entity, String.class, productsVO.getId());
-			 response.getHeaders().getLocation();
-			 response.getStatusCode();
-			 String responseBody = response.getBody();
-			 */
-			//--------------------------------
-			
-
 			Products products = new Products();
 
 			products.setName(productsVO.getName());
