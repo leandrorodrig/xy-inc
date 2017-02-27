@@ -9,15 +9,12 @@ import com.fasterxml.jackson.annotation.JsonView;
 
 public class AjaxProductsResponseBody {
 	
-	
 	@JsonView(Views.Public.class)
 	String msg;
 	@JsonView(Views.Public.class)
 	String code;
 	@JsonView(Views.Public.class)
 	Products products;
-	
-	
 	@JsonView(Views.Public.class)
     List<Products> listProducts;
 
@@ -45,8 +42,6 @@ public class AjaxProductsResponseBody {
 		this.products = products;
 	}
 	
-	
-
 	public List<Products> getListProducts() {
 		return listProducts;
 	}
@@ -62,7 +57,4 @@ public class AjaxProductsResponseBody {
 				+ "]";
 	}
 
-	
-	
-	
 }
