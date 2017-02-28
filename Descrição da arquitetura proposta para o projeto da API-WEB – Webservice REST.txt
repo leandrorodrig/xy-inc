@@ -1,0 +1,27 @@
+Descrição da arquitetura proposta para o projeto da API-WEB – Webservice REST
+
+
+Para o desenvolvimento da API (api-service), foi adotado como linguagem de programação o JAVA, e os frameworks mercadológicos e API (Application Programming Interface) mais utilizadas: 
+
+
+Maven, pois essa ferramenta da Apache é utilizada para o gerenciamento das dependências do projeto, além de possibilitar automatizar os builds do projeto no futuro;
+
+O Spring MVC, pois ele é o framework mais utilizado para criação de aplicações Web, implementando um grande número de funções, e o nosso projeto faz uso do padrão MVC, injeção de dependências, gerenciamento de transações (banco de dados) e suporte ao REST;
+
+A API (Application Programming Interface) adotado para o projeto é o Jackson, pois todas as requisições HTTP serão realizadas no formato JSON (JavaScript Object Notation), JSON é leve, por essa razão foi adotado esse formato;
+
+A API Log4j foi adotada para o projeto como o objetivo de os logs desejados em um diretório, registrando os principais eventos gerados durante a execução do projeto; 
+
+O JBoss Wildfly foi adotado como servidor de aplicação para o projeto;
+
+O JSP (Java Server Pages), é suportado pelo Spring MVC, foi implementado no projeto apenas para sinalizar que a mesma se encontra com seus serviços disponíveis;
+
+O BootStrap, pois ele é o framework mais utilizado para criação de páginas web, acelera o desenvolvimento;
+O JQuery, pois é através dele que é implementado as chamadas (POST, PUT, GET e DELETE) via AJAX;
+
+
+Observações importantes quanto as camadas do projeto:
+Falta apenas essa descrição: hoje (28/02/2017) no início da tarde, irei descrever em detalhes e subir novamente no github.
+
+Desenvolvedor: Tiago Tibães
+Data: 27/02/2017
