@@ -36,7 +36,8 @@
 = 																					  =
 = gitbash ou shell:  																  =
 =     git clone https://github.com/webstuff-eti/xy-inc.git                            =
-=																					  =	
+=     importar o projeto: api-service                                                 =   		
+=																			          =	
 =======================================================================================
 =   																				  =
 =       				Particularidas do projeto - Faça!   						  =  
@@ -53,6 +54,12 @@
 =   caso seu servidor Tomcat rode em uma outra porta, ou seja, diferente da 		  =
 =   configurada desse projeto (localhost:8085), altere a mesma no seu projeto de 	  =
 =   SoapUI ou altere a porta do seu Tomcat para rodar em "localhost:8085". 			  =
+=																					  =
+=======================================================================================
+=                                                                                     =
+=		Faça! 																		  =
+=       																			  =
+=       Integre o servidor de apliação "Apache Tomcat" a IDE do Eclipse e	          = 															  =       adicione o projeto ao servidor para que seja possível executar.               =    
 =																					  =
 =======================================================================================
 =																					  =

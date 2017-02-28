@@ -16,8 +16,7 @@
 =                                                                                     =
 =    		                  Tecnologias utililizadas 			                      =
 = 																					  =
-=     				Java 8 			- Versão: 1.7.0_79 							      =
-=     				Boostrap 		- Versão: 3								          =
+=     				Java 8 			- Versão: 1.7.0_79 							      =							          
 =     				Spring 			- Versão: 4.2.2.RELEASE 		                  =
 =     				jQuery 	        - Versão: 1.10.2  							      =
 =     				JBoss Wildfly   - Versão: 8.2.1 								  =
@@ -35,11 +34,11 @@
 = 																					  =
 = gitbash ou shell:  																  =
 =     git clone https://github.com/webstuff-eti/xy-inc.git                            =
-=	  importar o projeto: api-service								                  =	
+=	  importar o projeto: api-web    								                  =	
 =======================================================================================
 =                                                                                     =
 =		Faça! 																		  =
 =       																			  =
-=       Integre o servidor de apliação "JBoss Wildfly" a IDE do Eclipse e	          = 															  =       adicione o projeto ao servidor para que seja possível executar os testes      =    
+=       Integre o servidor de apliação "JBoss Wildfly" a IDE do Eclipse e	          = 															  =       adicione o projeto ao servidor para que seja possível executar.               =    
 =																					  =
 =======================================================================================
