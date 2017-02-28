@@ -1,0 +1,43 @@
+Descrição da arquitetura proposta para o projeto da API – Webservice REST
+
+
+Para o desenvolvimento da API (api-service), foi adotado como linguagem de programação o JAVA, e os frameworks mercadológicos e API (Application Programming Interface) mais utilizadas: 
+
+
+Maven, pois essa ferramenta da Apache é utilizada para o gerenciamento das dependências do projeto, além de possibilitar automatizar os builds do projeto no futuro;
+
+O Spring MVC, pois ele é o mais utilizado para criação de aplicações Web, implementando um grande número de funções, e o nosso projeto faz uso do padrão MVC, injeção de dependências, gerenciamento de transações (banco de dados) e suporte ao REST;
+
+O framework JPA, pois o mesmo é leve e baseado em POJOS (Plain Old Java Objects), tendo como objetivo, persistir objetos Java;
+
+Como uma estrutura Object / Relational Mapping (ORM), o Hibernate preocupa-se com a persistência de dados como se aplica aos bancos de dados relacionais (via JDBC).
+O framework Hibernate, por ser ORM (Object/ Relational Mapping), o mesmo preocupa-se com a persistência de dados (bancos de dados relacionais via JDBC), o objetivo do uso do mesmo é de poder desenvolver códigos focados no negócio (facilitar a vida do desenvolvedor) ;
+
+Vantagens: 
+1 – a tabela do banco de dados pode ser gerada maneira automática;
+Observação: nesse projeto a tabela é gerada pelo Hibernate.
+
+2 – em qualquer momento podemos alterar o tipo de banco utilizado.
+Observação: nesse projeto utilizamos o MySQL.
+
+A API (Application Programming Interface) adotado para o projeto é o Jackson, pois todas as requisições HTTP serão realizadas no formato JSON (JavaScript Object Notation), JSON é leve, por essa razão foi adotado esse formato;
+
+A API Log4j foi adotada para o projeto como o objetivo de os logs desejados em um diretório, registrando os principais eventos gerados durante a execução do projeto; 
+
+O Apache Tomcat foi adotado como servidor de aplicação para o projeto;
+
+O JSP (Java Server Pages), é suportado pelo Spring MVC, foi implementado no projeto apenas para sinalizar que a mesma se encontra com seus serviços disponíveis;
+
+
+Tecnologia adotada para os testes da API Services
+
+Foi adotado para o projeto a ferramenta de software SoapUI, pois a mesma é open source, possibilita consumir e testar Web Services 
+
+Observação: foi desenvolvido um projeto de testes no SoapUI para o nosso projeto e o mesmo encontra-se no repositório do github.
+
+Observações importantes quanto as camadas do projeto:
+O projeto contempla as camadas de Modelo (POJO), DAO (persistência), Serviços, Controle e Views (Interfaces usuário), foi implementado a Injeção de dependência com o objetivo de desacoplarmos aplicação e facilitar a manutenção e ou evolução do projeto.
+
+
+Desenvolvedor: Tiago Tibães
+Data: 27/02/2017
